@@ -1,12 +1,24 @@
-
+#firstparagraph {
+background-color: blue;
+color: white;
+}
+#secondparagraph {
+font-family: cursive;
+}
+body{
+ background: url("https://pbs.twimg.com/media/CdCLAAsWoAEEP16.jpg")
+}
+#fourthparagraph {
+  float: right;
+}
 .box {
   width: 100px;
   height: 100px;
   display: inline-block;
 }
-
 #one {
   background-color: red;
+   
 }
 
 #two {
@@ -15,4 +27,23 @@
 
 #three {
   background-color: green;
+}
+#three:hover {
+  background: url("http://greenmangoscatering.com/wp-content/uploads/2014/07/chicken.jpg" alt="chicken.jpg (2400×1846)");
+
+
+#firstparagraph:hover {
+  font-weight: bold;
+}
+p {
+  font-size: 20px; 
+}
+.even{
+ color:#891464;
+}
+#one:hover {
+  background-color:blue;
+}
+#two:hover {
+border-radius:50%;
 }
